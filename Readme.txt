@@ -1,3 +1,14 @@
+Prerequisite:
+Geth
+Node 
+npm
+
+About SmartContract:
+Created a SmartContract of HealthRecord management. Where only patient have the rights to see his/her Records. Whenever he'll go to  any hospital he'll give his public Key when hospital will enter the data. Now, Whenever Patient Want to see any Record he will be able to see along with timestamp. i have put the constraints so that no one except patient will be able to see the Records. patient have to provide his public and private key to see the HeathRecords.
+Along with this Create Js file to intract with SmartContract. 
+
+Steps to follow:
+
 step1:
 	install geth.
 step2:
