@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="parent.css" type="text/css">
+    </head>
+    <body>
+        <div>
+        <a href="/patient">Visit to Patient Portal</a>
+            <h1>Hospital Portal</h1>
+        <form method='POST' action='/EnterRecord'>
+            <h2>User Credential:</h2>
+            AccountAddress:
+            <input type="text" name="accountAddress" required><br>
+            PrivateKey:
+            <input type="password" name="privateKey" required><br><br>
+            <h2> Enter Patient Record </h2><br>
+            Admission No:
+            <input type="text" name="admissionNo" required><br>
+            Name:
+            <input type="text" name="Name" required><br>
+            Hospital:
+            <input type="text" name="hospital" required><br>
+            Doctor:
+            <input type="text" name="doctor" required><br>
+            Prescription:
+            <input type="text" name="prescription" required><br>
+            Public Address:
+            <input type="text" name="Address" required><br>
+
+            <button type="submit">Submit</button><br><br>
+        </form>
+
+        
+    </div>
+    </body>
+</html>

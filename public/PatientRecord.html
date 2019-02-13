@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="parent.css" type="text/css">
+    </head>
+    <body> 
+        <div>
+            <h1>Patient Portal</h1>
+            <table>
+                <tr>
+                    <td>
+                        <form method='POST' action='/TotalRecord'>
+                         <H2>Get Total Number of Records</H2>
+                         AccountAddress:
+                         <input type="text" name="accountAddress" required><br>
+                         PrivateKey:
+                         <input type="password" name="privateKey" required><br>
+                         <button type=submit>Record Count</button>
+                        </form>
+                    </td>
+                    <td>
+                         <form method='POST' action='/GetRecord'><br><br>
+                            <H2>Get Record</H2>
+                            Enter Index:
+                            <input type="text" name="index" required><br>
+                            AccountAddress:
+                            <input type="text" name="accountAddress" required><br>
+                            PrivateKey:
+                            <input type="password" name="privateKey" required><br>
+                            <button type=submit>Fetch Record</button><br><br>
+                        </form>
+                    </td>
+                </tr>
+            </table>
+    </div>
+    </body>
+</html>
