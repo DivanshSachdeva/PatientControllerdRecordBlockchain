@@ -17,7 +17,7 @@ Step8:
 Step9:
 	Make changes in Server file where ABI and Contract Address is required. 
 Step10:
-	open the console. and type node server.
+	open the console. type npm Install. It will install all dependencies and then type node server.
 step11:
 	Go to localhost:3000
 Step12:
